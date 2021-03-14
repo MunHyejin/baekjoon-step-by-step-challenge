@@ -1,6 +1,4 @@
-In = input()
-A = In[0]
-B = In[2]
-
-C = int(A)-int(B)
-print(C)
+a,b=input().split()
+a=int(a)
+b=int(b)
+print(a-b)
