@@ -1,0 +1,8 @@
+n=int(input())
+sihum_list=list(map(int, input().split()))
+max_score=max(sihum_list)
+new_list=[]
+for score in test_list:
+	new_list.append(score/max_score*100)
+sihum_ave=sum(new_list)
+print(sihum_ave)
