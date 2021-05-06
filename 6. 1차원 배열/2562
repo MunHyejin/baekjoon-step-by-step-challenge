@@ -1,0 +1,18 @@
+num=[]
+for _ in range(9):
+    i = int(input())
+    num.append(i)
+
+print(max(num))
+print(num.index(max(num))+1)
+
+-숫자 개수 2577
+a= int(input())
+b= int(input())
+c= int(input())
+
+t_str=str(a*b*c)
+
+for num in range(10):
+    num_count = t_str.count(str(num))
+    print(num_count)
