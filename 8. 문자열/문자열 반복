@@ -1,0 +1,9 @@
+t=int(input())
+
+for I in range(t):
+  a,b=input().split()
+	a=int(a)
+	b=str(b)
+	for I in range(len(b)):
+		print(a*b[i],ed=’‘)
+	print()
