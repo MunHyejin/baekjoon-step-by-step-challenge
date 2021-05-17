@@ -1,0 +1,4 @@
+w= input().split()
+print(len(word))
+
+print(len(inut().split()))
